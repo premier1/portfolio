@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="images/my-image.jpg" type="image/x-icon">
+        <link rel="icon" href="images/my-image.jpg" type="image/x-icon">
+        <meta name="theme-color" content="#008000">
+        <meta name="author" content="Taiwo Olalere">
+        <meta name="description" content="Portfolio Website for Taiwo Olalere. A Web Developer driven with passion to efficiently develop user friendly and easy to use Websites that meet users need.">
+        <meta name="keywords" content="Taiwo Olalere, Premier, Portfolio, Personal Website, Website Design and Development">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Olalere Taiwo</title>
+    </head>
+    <body onload="myfunc()">
+        <div id="loader">
+            <div id="name-animation-box">
+
+                <p id="o2">O</p>
+                <p id="l">l</p>
+                <p id="a2">a</p>
+                <p id="l2">l</p>
+                <p id="e">e</p>
+                <p id="r">r</p>
+                <p id="e2">e</p>
+                &nbsp;
+                <p id="t">T</p>
+                <p id="a">a</p>
+                <p id="i">i</p>
+                <p id="w">w</p>
+                <p id="o">o</p>
+
+            
+            </div>
+        </div>
+        <main>
+            <div id="navbar">
+                <a href="./index.html" class="active"><i class="fa fa-user"></i><span>Profile</span></a>
+                <a href="./skills.html"><i class="fa fa-wrench"></i><span>Technical Skills</span></a>
+                <a href="./projects.html"><i class="fa fa-tasks"></i><span>Projects</span></a>
+                <a href="./contact.html"><i class="fa fa-phone"></i><span>Get In Touch</span></a>
+                <a href="./about.html"><i class="fa fa-edit"></i><span>About Me</span></a>
+            </div>
+            <div id="bio">
+                <!-- <div class="content-image"> -->
+                <h3>Hello, I'm</h3>
+                <h2>Olalere Taiwo</h2>
+                <p>A Web Developer driven with passion to efficiently develop user friendly and easy to use Websites that meet users need.</p>
+
+                <p class="first-sentence">
+                    <marquee><h1 class="first-sentence-h1">DO YOU NEED A MODERN WEBSITE?</h1><br> </marquee> 
+                </p>
+    
+                <a href="mailto:taiwoolalereoluwabunmi@gmail.com?subject = Mail of Interest"><button>Let's Talk</button></a>
+                <!-- </div> -->
+            </div>
+        </main>
+
+    </body>
+    <script>
+        function myfunc(){
+            var myvar= setTimeout(show, 3600);
+        }
+        function show(){
+            document.getElementById("loader").style.transition="1s";
+            document.getElementById("loader").style.transform="scale(0)";
+        }
+    </script>
+
+
+</html> 
